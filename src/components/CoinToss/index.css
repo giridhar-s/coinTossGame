@@ -1,1 +1,44 @@
-/* Write your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+}
+.box {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 40px 60px;
+}
+.box > * {
+  margin-bottom: 20px;
+}
+img {
+  width: 200px;
+}
+h1 {
+  color: #a35200;
+}
+button {
+  color: #a35200;
+  background-color: #f9d423;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.results-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.para {
+  color: #334155;
+  font-size: 20px;
+}
